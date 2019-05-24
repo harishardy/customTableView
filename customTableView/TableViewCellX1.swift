@@ -13,6 +13,7 @@ class TableViewCellX1: UITableViewCell {
    
     
     
+    @IBOutlet weak var imageViewX1: UIImageView!
     
     
     @IBOutlet var labelX1 : UILabel!
