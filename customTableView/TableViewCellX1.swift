@@ -11,6 +11,7 @@ import UIKit
 class TableViewCellX1: UITableViewCell {
 
    
+    @IBOutlet weak var labelX2: UILabel!
     
     
     @IBOutlet weak var imageViewX1: UIImageView!
