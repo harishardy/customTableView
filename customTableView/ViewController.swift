@@ -23,7 +23,7 @@ class ViewController: UIViewController,UITableViewDataSource {
         
         cellX1.labelX1.text = countryArrayX1[indexPath.row]
         cellX1.imageViewX1.image = UIImage(named: countryArrayX1[indexPath.row] )
-        cellX1.labelX2.text = String(countryArrayX1.count)
+        cellX1.labelX2.text = String(indexPath.row+1)
         
         return cellX1
     }
